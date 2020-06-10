@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400&display=swap");
+
+*{
+  color: #FFF;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root{
+  font-size: 18px;
+  user-select: none;
+}
+
+body{
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(#000A, #000A), url("background.jpg") center 60% no-repeat;
+  background-size: cover;
+  font-family: Montserrat, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+footer{
+  padding: .3rem 0;
+  font-size: .7rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.weather{
+  font-size: 4rem;
+  text-align: center;
+  user-select: text;
+}
